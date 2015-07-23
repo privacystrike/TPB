@@ -1,10 +1,10 @@
 [Adblock Plus 2.3.1]
-! Checksum: dB7hQY2Hjrm8MJyRlKGCCg
+! Checksum: yrrqQbO7OTPnMHYqhO1JXw
 ! Title: Third Party Block
 ! Homepage: https://privacystrike.github.io/
-! Expires: 1 day
-! Release: 20072015.12
-! Version: 12
+! Expires: 1 hour
+! Release: 23072015.18
+! Version: 18
 *$third-party
 *$object
 *$other
@@ -21,6 +21,7 @@ top-fwz1.mail.ru$domain=mail.ru
 @@||wikia.nocookie.net$image,stylesheet,script,domain=wikia.com
 @@||d3oaxc4q5k2d6q.cloudfront.net$script,domain=bitbucket.org
 @@||githubusercontent.com$image,domain=github.com
+@@||github.com$other,domain=github.com
 @@||a.fsdn.com$image,stylesheet,script,domain=sourceforge.net
 @@||fiddle.jshell.net$script,subdocument,domain=jsfiddle.net
 @@||cdn.sstatic.net$image,stylesheet,domain=stackoverflow.com|stackexchange.com|askubuntu.com|superuser.com|serverfault.com
@@ -36,6 +37,9 @@ top-fwz1.mail.ru$domain=mail.ru
 @@||cdn*.vox-cdn.com$image,stylesheet,script,domain=theverge.com
 @@||dnqgz544uhbo8.cloudfront.net/_/fp/$stylesheet,script,domain=medium.com
 @@||d262ilb51hltx0.cloudfront.net$image,media,domain=medium.com
+@@||lamcdn.net$image,stylesheet,script,domain=lookatme.ru|the-village.ru|wonderzine.com
+@@||redditstatic.com$image,stylesheet,script,domain=reddit.com
+@@||thumbs.redditmedia.com$image,stylesheet,domain=reddit.com
 @@||images-amazon.com$image,stylesheet,script,domain=amazon.com|amazon.co.uk|amazon.de
 @@||asosservices.com$script,domain=asos.com
 @@/i.ebayimg.com|img.ebay.com.au/$image,domain=ebay.com
@@ -55,21 +59,24 @@ top-fwz1.mail.ru$domain=mail.ru
 @@||img2.wsimg.com$script,domain=godaddy.com
 @@||d297h9he240fqh.cloudfront.net/assets/$image,stylesheet,script,domain=kickstarter.com
 @@||ozone.ru$image,stylesheet,script,domain=ozon.ru
-@@||wbstatic.net$image,stylesheet,script,domain=wildberries.ru
+@@||wbstatic.net$image,media,stylesheet,script,subdocument,domain=wildberries.ru
 @@||maps.2gis.com$image,xmlhttprequest,domain=2gis.ru
 @@||mapbox.com$image,xmlhttprequest,domain=vk.com
 @@||c.stdns.ru$image,stylesheet,script,domain=dns-shop.ru
 @@||avito.st$image,stylesheet,script,domain=avito.ru
 @@/c.rdrom.ru|farpost.ru/$image,stylesheet,script,domain=drom.ru
 @@||d-cd.net$image,domain=drive2.ru
+@@||i.sdska.ru$image,stylesheet,script,domain=rugion.ru|74.ru|72.ru|59.ru|63.ru|ufa1.ru|161.ru|29.ru|76.ru|v1.ru|45.ru|93.ru|116.ru|86.ru|164.ru|56.ru|mgorsk.ru|62.ru|48.ru|kbs.ru|178.ru|26.ru|89.ru|tolyatty.ru|sochi1.ru|irkutsk138.ru|proizhevsk.ru|51.ru|provoronezh.ru|71.ru|154.ru|70.ru|sterlitamak1.ru|ekat.ru|42.ru|43.ru|14.ru|35.ru|omsk1.ru|68.ru|53.ru|75.ru|60.ru
+@@||d.sdska.ru$image,domain=74.ru|72.ru|59.ru|63.ru|ufa1.ru|161.ru|29.ru|76.ru|v1.ru|45.ru|93.ru|116.ru|86.ru|164.ru|56.ru|mgorsk.ru|62.ru|48.ru|kbs.ru|178.ru|26.ru|89.ru|tolyatty.ru|sochi1.ru|irkutsk138.ru|proizhevsk.ru|51.ru|provoronezh.ru|71.ru|154.ru|70.ru|sterlitamak1.ru|ekat.ru|42.ru|43.ru|14.ru|35.ru|omsk1.ru|68.ru|53.ru|75.ru|60.ru
 @@/blob:|yastatic.net|yandex.st|yandex.net/$image,stylesheet,script,xmlhttprequest,domain=yandex.ru|narod.ru|yadi.sk|ya.ru
 @@||st.kp.yandex.net$image,stylesheet,script,domain=kinopoisk.ru
 @@||yandex.st/jquery/$script,domain=devfaq.ru|mts.ru|loginza.ru|sportmaster.ru|kinopoisk.ru
 @@||yandex.st/highlightjs/$script,domain=toster.ru
-@@||downloader.disk.yandex.ru/disk/$subdocument,domain=yadi.sk
+@@||downloader.disk.yandex.ru/$image,domain=yadi.sk
 @@||l.yimg.com$script,domain=flickr.com
 @@||twimg.com$image,stylesheet,script,domain=twitter.com
 @@||instagramstatic-a.akamaihd.net$stylesheet,script,domain=instagram.com
+@@||l-stat.livejournal.net$image,stylesheet,script,domain=livejournal.com
 @@||pbsrc.com$script,domain=photobucket.com
 @@||sndcdn.com$image,stylesheet,script,xmlhttprequest,domain=soundcloud.com
 @@||media-mix.netdna-ssl.com/media/js2/$script,domain=mixcloud.com
@@ -81,15 +88,16 @@ top-fwz1.mail.ru$domain=mail.ru
 @@||rusfolder.cc/script/$script,domain=rusfolder.com
 @@||assets.wetransfer.net/assets/$script,domain=wetransfer.com
 @@||gstatic.com$image,script,domain=google.com
+@@||gstatic.com/codesite/$stylesheet,script,domain=code.google.com
 @@||translate.googleusercontent.com$subdocument,domain=translate.google.com|translate.google.ru
 @@/blogblog.com|blogger.com|blogspot.com/$image,stylesheet,script,subdocument,domain=blogspot.ru|blogspot.ch
 @@||youtube.com/embed/$subdocument
 @@||googlevideo.com$media,domain=youtube.com
 @@||ytimg.com$domain=youtube.com
 @@||vimeocdn.com$script,domain=vimeo.com
-@@||static.bpddn.com/s/$script,domain=beatport.com
+@@||static.bpddn.com/s/$image,stylesheet,script,domain=beatport.com
 @@/habrastorage.org|hsto.org/$image,stylesheet,domain=habrahabr.ru|geektimes.ru|megamozg.ru|moikrug.ru
-@@||habracdn.net$image,stylesheet,script,domain=moikrug.ru|geektimes.ru|toster.ru
+@@||habracdn.net$image,stylesheet,script,domain=moikrug.ru|geektimes.ru|toster.ru|megamozg.ru
 @@||tmtm.ru$stylesheet,script,domain=habrahabr.ru
 @@||tedcdnpa-a.akamaihd.net$image,stylesheet,script,domain=ted.com
 @@||tedcdnpi-a.akamaihd.net$image,domain=ted.com
